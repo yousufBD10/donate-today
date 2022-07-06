@@ -1,0 +1,141 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+ 
+
+.secContainer{background-image: url(foods.png);
+    background-size: cover;
+    color: white;
+ width: 1200px;
+ margin-left: 50px;
+ height: 600px;
+    background-repeat: no-repeat;
+  
+    text-shadow: 7px 2px 10px black;
+
+}
+.container{
+    
+    
+    text-align: center;
+    align-items:bottom;
+    margin-top: 10px;
+    padding: 150px;
+    
+
+}
+.headline{
+    color:rgb(51, 255, 0);
+    font-size: 60px;
+   
+}
+.donat{
+    color: white;
+    text-decoration: none;
+    background-color:tomato;
+    padding: 10px;
+    border-radius: 10px; 
+
+}
+.donat:hover{
+    background-color: rgb(0, 104, 0);
+    box-shadow: 10px 5px 10px black;
+    transition: .3s;
+}
+.sectwo{
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+
+
+}
+.btn{
+    margin: 20px;
+    padding: 25px;
+    border: 1px solid wheat;
+    border: 0;
+    border-radius: 5px;
+     font-size: 20px;
+    box-shadow: 1px 1px 10px black;
+    background-color: inherit;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+
+}
+.btn:hover{
+    
+    background-color: rgb(255, 214, 234);
+    color: tomato;
+    padding: 26px;
+    font-size: 22px;
+}
+.naindiv{
+    display: flex;
+}
+.a{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px 10px black;
+    border-radius: 5px;
+    color: white;
+}
+#foodes{
+    background-color: coral;
+}
+#shelter{
+    background-color: aquamarine;
+}
+#medicine{
+    background-color: darkgreen;
+}
+.email{
+    border: 1px solid grey;
+    padding: 13px;
+    border-radius: 5px;
+    width: 300px; 
+}
+.sub{
+    border: 1px solid grey;
+    padding: 13px;
+    border-radius: 5px;
+    width: 200px; 
+   background-color:rgb(30, 157, 207) ;
+    font-size: 17px;
+    color: white;
+}
+.sub:hover{
+    background-color: tomato;
+    transition: .3s;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(46, 42, 42);
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+.footerdetails{
+    
+  
+ 
+   
+}
+.footerdetailstwo{
+
+}
+.fa{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid white;
+
+}
+.fa:hover{color: black;
+    background-color: white;
+transition: .3s;
+}
