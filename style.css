@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    
+    font-weight: bold;
 }
  
 
@@ -128,14 +128,74 @@ footer{
 
 }
 .fa{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 5px;
-    padding: 10px;
+    
+    padding: 15px;
     border: 1px solid white;
 
 }
 .fa:hover{color: black;
     background-color: white;
 transition: .3s;
+}
+.paymtstm{
+    width: 90%;
+    height: 300px;
+    margin: 20px 20px 20px;
+    padding: 60px;
+    display: flex;
+    text-align: left;
+    text-justify: bold;
+
+    
+
+}
+.donorbkash{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+   
+    
+}
+.bd{
+    color:tomato;
+
+}
+.apeal{
+    background-color: #f7f7f7;
+    
+   
+   
+    height: 600px;
+   
+    background-position: center;
+
+    text-align: center;
+  width: 100%;
+    padding: 15px;
+    font-size: 27px;
+}
+.apealdetails{
+    background-image: url(Background.jpg);
+    width: 80%;
+    background-size: cover;
+    height: 400px;
+    margin-left: 130px;
+    padding: 30px;
+   
+}
+.das{
+    color: white;
+    background-color: tomato;
+    border-color: tomato;
+    border-radius: 50px;
+     width: 300px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.das:hover{
+    cursor: pointer;
+    background-color: rgb(253, 56, 21);
 }
